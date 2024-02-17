@@ -1,0 +1,42 @@
+@media (max-width: 991px) {
+
+section{
+    padding: 30px 0;
+}
+h2{
+    font-size: 30px;
+    line-height: 40px;
+}
+h3{
+    font-size: 20px;
+}
+/* navbar */
+
+.header-scrolled{
+    height: auto;
+}
+.header_wrapper .menu-navbar-nav{
+    text-align: center;
+    background-color: var(--bg-dark-blue);
+    padding-bottom: 15px;
+}
+.header_wrapper .nav-item>.nav-link{
+    margin: 0 auto;
+    width: 20%;
+    padding-bottom: 10px;
+}
+
+/* portfoluio */
+#portfolio .cards .card{
+    margin: 10px 45px;
+    width: 80%;
+}
+#portfolio .cards .card .content{
+    width: 100%;
+}
+#portfolio .cards .card .content>button{
+    position: relative;
+    top: 50%;
+    left: 10%;
+}
+}

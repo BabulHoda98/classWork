@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- cdn bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- cdn font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <title>Document</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="10">
+    <!-- nav -->
+
+    <header class="header_wrapper fixed-top">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a href="#" class="navbar-brand">
+            <img src="./images/logo.png" alt="" class="img-fluid" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa-solid fa-bars-staggered toggler-icon"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav menu-navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#home" class="nav-link active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#services" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="#portfolio" class="nav-link">PortFolio</a>
+              </li>
+              <li class="nav-item mt-2 mt-lg-0">
+                <a href="#contact" class="main-btn">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- banner -->
+
+    <section id="home" class="banner_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center text-md-start">
+            <h6>Wecome to my Profile</h6>
+            <h1>
+              Hi I am Robin <br />
+              <span>Front-End Developer</span> <br />
+              based in India
+            </h1>
+            <div class="mt-4">
+              <a class="main-btn" href="#">Download CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+
+    <section id="about" class="about_wrapper">
+      <div class="container">
+        <div class="row d-flex justify-content-between align-items-center">
+          <div class="col-lg-5 mb-4 mb-lg-0">
+            <img src="./images/about.jpg" alt="" class="img-fluid rounded-4" />
+          </div>
+          <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+            <div class="my-3 my-lg-0 about-content">
+              <span class="subtitle">About Details</span>
+              <h2>About Myself</h2>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
+                culpa eveniet ut quisquam ipsam suscipit. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Perferendis, distinctio ipsum
+                exercitationem accusantium repudiandae expedita.
+              </p>
+            </div>
+            <div class="pt-4">
+              <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="pills-skills-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-skill"
+                    type="button"
+                    role="tab"
+                  >
+                    Main Skills
+                  </button>
+                </li>
+                <li class="nav-item">
+                  <button
+                    class="nav-link "
+                    id="pills-Award-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-Award"
+                    type="button"
+                    role="tab"
+                  >
+                  Certifications
+                  </button>
+                </li>
+                <li class="nav-item">
+                  <button
+                    class="nav-link"
+                    id="pills-experience-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-experience"
+                    type="button"
+                    role="tab"
+                  >
+                  Experience
+                  </button>
+                </li>
+                <li class="nav-item">
+                  <button
+                    class="nav-link "
+                    id="pills-education-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-education"
+                    type="button"
+                    role="tab"
+                  >
+                  Education
+                  </button>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+      repudiandae reprehenderit voluptatum excepturi modi, a laudantium porro
+      odio quaerat exercitationem, debitis quae. Eum, accusamus ducimus. Unde
+      recusandae, quia architecto, facilis necessitatibus veniam illo modi,
+      corrupti culpa praesentium ea quo sit et. Eos architecto at, aspernatur
+      quisquam officia earum minus sunt, voluptas repellendus amet iusto
+      placeat, officiis nam ipsa laudantium cupiditate vitae ullam quasi illo
+      impedit! Placeat ratione quaerat a impedit qui minus voluptate consequatur
+      veritatis, aliquid fugiat at praesentium laudantium, dolorem, soluta
+      libero corrupti enim non et harum autem commodi ad! Nam consequuntur
+      debitis omnis fuga. Itaque quis nobis quaerat at nesciunt, animi quo
+      suscipit voluptatibus. Expedita quam consequuntur, incidunt in enim
+      tempora culpa deleniti recusandae rerum ea cumque, ipsum, aspernatur quo
+      ullam sit atque! Dolores quod alias assumenda rem eveniet harum numquam
+      repellendus et ipsum consectetur, neque vitae, ipsa commodi. Nostrum iure
+      perferendis nemo. Illum natus debitis quidem, cumque id beatae iure
+      pariatur expedita aut impedit sequi et quas? Culpa cupiditate temporibus
+      explicabo perferendis, eum ipsam ullam placeat excepturi error quibusdam.
+      Dolores accusantium quasi modi ullam quis assumenda soluta hic libero
+      repellendus sapiente unde magni nemo et voluptas, magnam cupiditate error
+      quia tempora neque! Quaerat voluptates provident facere recusandae
+      inventore enim fugiat! Veniam, quos. Cumque, natus rerum? Hic esse
+      consectetur dolores quisquam nam officia dolorem placeat possimus debitis
+      rem amet, quidem deserunt corrupti culpa neque, accusamus ipsa vitae, fuga
+      quaerat perferendis? Eaque necessitatibus quo eius ad est cumque ipsum?
+      Molestiae blanditiis dolorem temporibus mollitia laudantium, recusandae
+      nemo dolor inventore voluptatum iste velit et dolorum odit consequatur hic
+      laboriosam, sint in? Architecto harum maiores repellat earum
+      exercitationem ea, quaerat fuga ad blanditiis incidunt voluptatibus
+      deserunt ipsum iste placeat rerum adipisci, minus repudiandae quia
+      voluptates nostrum cumque! At debitis odio quae fugit corporis nam ex
+      laudantium tempore officiis suscipit sunt, rem perspiciatis
+      necessitatibus. Enim deleniti dolores aspernatur nisi minus ipsum id quia
+      error, laboriosam facere similique eveniet beatae. Molestias beatae ipsa
+      veritatis, excepturi voluptate quam quod soluta amet numquam deserunt
+      autem perferendis debitis reiciendis id voluptas sapiente laboriosam. Nam
+      nihil sequi hic. Iure esse rerum hic corporis accusantium sit itaque sunt
+      fuga minima illo! Dolorum aliquam magni accusamus, quas omnis optio
+      incidunt inventore nulla, consectetur eveniet doloribus voluptatum
+      deleniti molestias atque adipisci ratione velit quam consequuntur. Harum
+      placeat, quas aliquam eum vitae recusandae consequuntur, ad sint inventore
+      error voluptates ullam fuga culpa molestias cupiditate impedit laudantium,
+      temporibus reiciendis. Qui odio numquam, error eius omnis officiis
+      veritatis eum iusto labore nemo aliquam. Amet magni earum animi quaerat
+      quisquam recusandae! Laudantium non illum velit ex consequuntur vel quidem
+      debitis, vitae dignissimos consequatur ullam deleniti tempora, quas
+      aliquam alias nobis adipisci expedita earum reiciendis, maxime asperiores!
+      Nostrum dolores nemo culpa? Eveniet, numquam eius. Autem nostrum quo quas
+      vel, quisquam nam accusamus cupiditate sint, asperiores, vero modi odit
+      quam commodi iure quidem eaque pariatur minima. Ullam, excepturi tempora?
+      Magni ipsam accusantium error hic officia non pariatur quasi sequi,
+      perferendis alias ab obcaecati cum soluta nisi assumenda officiis dolores
+      ex at quas omnis nam quaerat? Quibusdam, corporis? Eligendi sed voluptate
+      debitis mollitia iure, id exercitationem consequatur iste, vero, rem ipsum
+      quibusdam vitae labore nobis delectus at quae nostrum officiis ratione
+      deserunt tenetur! Velit explicabo eum rem quo commodi obcaecati nemo
+      possimus amet? Dolores inventore unde officiis asperiores accusamus! Magni
+      aperiam magnam vitae aut provident repudiandae quaerat natus deserunt.
+      Totam tenetur doloribus laudantium culpa iure nesciunt quam earum quis
+      libero inventore, ab odio, repellat itaque, eos cum? Possimus aut eaque
+      sint dolorum quia eveniet mollitia ut fugit. Explicabo alias commodi
+      aperiam natus incidunt, sequi quasi saepe doloremque maxime similique
+      veritatis eaque in accusamus, dolorem dicta ab minus qui quod ut molestiae
+      corporis, fugit suscipit tempora? Fuga reiciendis ipsam tenetur nostrum
+      impedit cum veritatis aspernatur, excepturi exercitationem sunt natus eos
+      dignissimos temporibus quas. Atque quasi expedita at rem possimus aliquam
+      placeat minus facilis impedit pariatur, accusantium incidunt blanditiis?
+      Aliquid ipsam, vero dolorum ipsum natus maxime excepturi veritatis
+      reiciendis. Sit, cupiditate dicta. Illo, facere! Explicabo voluptatibus
+      maxime vel impedit dicta cum necessitatibus molestias doloribus, provident
+      esse, iusto ipsum dolore perferendis ullam eligendi. Adipisci sapiente
+      fugit nam accusamus ratione, odio quae? Distinctio architecto nemo facere
+      recusandae rem eum rerum dicta suscipit veniam esse culpa voluptatibus
+      sint asperiores debitis iste, autem commodi magnam, magni facilis atque
+      harum illo quidem deserunt soluta. Reiciendis, officia! Esse, facilis,
+      illum commodi vero neque officiis illo suscipit eveniet consequatur
+      dolores, voluptate earum nisi excepturi quisquam corrupti perferendis
+      voluptatem facere? Quisquam ducimus pariatur inventore laudantium magni
+      nisi assumenda. Quod, voluptates ea nostrum ipsam voluptatem excepturi
+      incidunt, id omnis expedita odit cumque placeat dolore sit amet facere rem
+      enim laboriosam. Deleniti soluta quo iure odit minima quos ipsam dicta,
+      eos nobis quas maxime sequi hic inventore facere dolore quod possimus
+      dolorum fuga commodi alias quaerat, quia excepturi exercitationem? Amet,
+      reprehenderit? Recusandae ullam aperiam iste minima, molestias dicta
+      reprehenderit labore eaque harum ex. Ullam aspernatur expedita vel eaque
+      libero modi ipsam et dolorem unde. Rem aliquid nemo, sed obcaecati nulla
+      ipsam iste omnis odit numquam at repudiandae totam est natus beatae atque
+      sequi necessitatibus quos laborum blanditiis perferendis eum ipsum. Minus
+      reiciendis, at illum aut quasi vel corrupti ratione, repellendus quas
+      ipsam et nulla, eligendi quam nostrum. Unde deserunt at labore maiores
+      totam, vero provident pariatur aliquid alias itaque vitae voluptatibus
+      ipsam, distinctio blanditiis ea quis! Similique ut voluptates quis est
+      iure iste culpa asperiores quasi. Rem atque repudiandae quis quisquam
+      deserunt facere, aliquam iste aspernatur cumque possimus quo, porro eius
+      quae sit aliquid ea! Asperiores, veritatis possimus sequi vero vitae nobis
+      perspiciatis voluptate. Nihil consequuntur ratione temporibus a nisi
+      magni, iusto hic aut, reiciendis alias nam pariatur est similique impedit
+      ducimus nobis illum numquam. Nemo vero rerum, distinctio accusantium
+      laudantium praesentium magni? Facilis repellendus nesciunt rem officiis
+      asperiores, molestiae autem labore quibusdam cum suscipit velit aliquid
+      doloremque at itaque vero vel, dolorum deleniti non libero! Qui ratione
+      quidem atque molestias esse ad dolor. Fugit consequatur perferendis fuga
+      consequuntur dolores dolorem iure cumque expedita, obcaecati itaque alias
+      voluptates vitae iste fugiat doloremque dolorum ea veritatis molestias, a
+      odit tempore.
+    </p>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./scr.js"></script>
+  </body>
+</html>
